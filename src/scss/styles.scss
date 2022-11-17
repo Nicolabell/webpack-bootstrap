@@ -1,4 +1,9 @@
+//$body-bg: #F3FCE2;
+
+
 // Import all of Bootstrap's CSS
 
 @import 'node_modules/bootstrap/scss/bootstrap';
 
+@import 'defaultsPAB';
+@import 'images';
