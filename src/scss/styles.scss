@@ -1,9 +1,50 @@
-//$body-bg: #F3FCE2;
-
 
 // Import all of Bootstrap's CSS
 
 @import 'node_modules/bootstrap/scss/bootstrap';
 
+
+// Custome partials 
+
 @import 'defaultsPAB';
 @import 'images';
+
+
+// PAB overides 
+
+
+h1,
+h2,
+h3,
+.nav-link {
+    font-family: $heading;
+    color: $dark01;
+}
+
+p {
+    font-family: $normal;
+    color: $dark01;
+}
+
+body {
+    background-color: $light01;
+}
+
+.btn-primary {
+    background-color: $dark01;
+    color: $light01;
+}
+
+.navbar {
+    background-color: $light01;
+
+}
+
+footer {
+    background-color: $dark01;
+
+    p {
+        color: $light01;
+    }
+
+}
