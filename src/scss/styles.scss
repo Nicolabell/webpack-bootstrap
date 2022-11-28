@@ -33,6 +33,7 @@ body {
 .btn-primary {
     background-color: $dark01;
     color: $light01;
+    border-color: $light01;
 }
 
 .navbar {
@@ -46,5 +47,9 @@ footer {
     p {
         color: $light01;
     }
+}
 
+.dropdown-menu {
+    color: $dark01;
+    background-color: $light01;
 }
