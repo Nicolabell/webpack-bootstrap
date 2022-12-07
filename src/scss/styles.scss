@@ -1,19 +1,17 @@
+// Custom PAB partials - add these above the imported bootstrap so that they are prioritised
+@import 'buttonPAB';
+@import 'defaultsPAB';
+@import 'images';
 
 // Import all of Bootstrap's CSS
 
 @import 'node_modules/bootstrap/scss/bootstrap';
 
 
-// Custome partials 
-
-@import 'defaultsPAB';
-@import 'buttonPAB';
-@import 'images';
-
 // Font awesone
 //@import '~@font-awesome/scss/font-awesome.scss'
 
-// PAB overides 
+
 
 
 h1,
