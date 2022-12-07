@@ -22,6 +22,20 @@ $warning: #E6E8FC;
 $dark: #004B3D;
 $light: #f1f7e8;
 
+// Import bootstrap variables and funtions
+@import "../node_modules/bootstrap/scss/_functions.scss";
+@import "../node_modules/bootstrap/scss/_variables.scss";
+
+$custom-theme-colours: (
+    "dgreen": #004B3D,
+    "lgreen": #F3FCE2,
+    "dblue": #2A3383,
+    "lblue": #E6E8FC,
+    "librown": #EDEBDA
+)
+
+$theme-colors: map-merge($theme-colors, $custom-theme-colors ), //custom colours added to theme colours map
+
 
 // PAB defaults - switch out these!
 $dark01: #004B3D;
