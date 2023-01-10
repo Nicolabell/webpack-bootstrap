@@ -1,56 +1,55 @@
 // Custom PAB partials - add these above the imported bootstrap so that they are prioritised
-@import 'buttonPAB';
-@import 'defaultsPAB';
-@import 'images';
+@import "buttonPAB";
+@import "defaultsPAB";
+@import "images";
 
 // Import all of Bootstrap's CSS
 
-@import 'node_modules/bootstrap/scss/bootstrap';
-
+@import "node_modules/bootstrap/scss/bootstrap";
 
 // Font awesone
 //@import '~@font-awesome/scss/font-awesome.scss'
-
-
-
 
 h1,
 h2,
 h3,
 .nav-link {
-    font-family: $heading;
-    color: $dark01;
+  font-family: $heading;
+  color: $dark01;
 }
 
 p {
-    font-family: $normal;
-    color: $dark01;
+  font-family: $normal;
+  color: $dark01;
 }
 
 body {
-    background-color: $light01;
+  background-color: $light01;
 }
 
 .btn-primary {
-    background-color: $dark01;
-    color: $light01;
-    border-color: $light01;
+  background-color: $dark01;
+  color: $light01;
+  border-color: $light01;
+  &:hover {
+    background: $light01;
+    color: $dark01;
+  }
 }
 
 .navbar {
-    background-color: $light01;
-
+  background-color: $light01;
 }
 
 footer {
-    background-color: $dark01;
+  background-color: $dark01;
 
-    p {
-        color: $light01;
-    }
+  p {
+    color: $light01;
+  }
 }
 
 .dropdown-menu {
-    color: $dark01;
-    background-color: $light01;
+  color: $dark01;
+  background-color: $light01;
 }
