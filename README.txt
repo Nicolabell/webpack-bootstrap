@@ -8,6 +8,11 @@ Stuff to remember:
 npm start
 
 
+Build for production:
+npm run build
+Update pab-prototyping.netlify.app or start new
+
+
 Theming notes:
 
 Adding icon left of drop down menu item 
