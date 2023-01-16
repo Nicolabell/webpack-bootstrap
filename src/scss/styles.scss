@@ -19,9 +19,13 @@ h3,
 }
 
 .nav-link {
-  font-size: larger;
+  font-size: large;
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.nav-item {
+  padding: 8px;
 }
 
 p {
@@ -47,15 +51,23 @@ body {
   background-color: $light01;
 }
 
+.dropdown-menu {
+  color: $dark01;
+  background-color: $light01;
+}
+
+//LAYOUT
+
+.container {
+  max-width: 1600px;
+}
+
+//FOOTER
+
 footer {
   background-color: $dark01;
 
   p {
     color: $light01;
   }
-}
-
-.dropdown-menu {
-  color: $dark01;
-  background-color: $light01;
 }
