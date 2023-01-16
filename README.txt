@@ -11,6 +11,7 @@ npm start
 Build for production:
 npm run build
 Update pab-prototyping.netlify.app or start new
+To deploy, head to https://app.netlify.com/sites/pab-prototyping/deploys
 
 
 Theming notes:
