@@ -12,13 +12,13 @@ $normal: "Manrope", sans-serif;
 
 // Bootstrap defaults - switch out these with branding colours below to adjust default theme
 
-$primary: #f3fce2;
-$secondary: #004b3d;
+$primary: #f7f5e4;
+$secondary: #243383;
 $success: #004b3d;
-$info: #2a3383;
+$info: #243383;
 $warning: #e6e8fc;
-$dark: #004b3d;
-$light: #f1f7e8;
+$dark: #243383;
+$light: #f7f5e4;
 
 // Import bootstrap variables and funtions
 //@import "../node_modules/bootstrap/scss/_functions.scss";
@@ -34,9 +34,9 @@ $custom-theme-colours: (
 
 //$theme-colors: map-merge($theme-colors, $custom-theme-colors ), //custom colours added to theme colours map
 
-// PAB defaults - switch out these 
-$dark01: #004b3d;
-$light01: #f3fce2;
+// PAB defaults - switch out these
+$dark01: #243383;
+$light01: #f7f5e4;
 
 //blues
 $dark02: #2a3383;
