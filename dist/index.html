@@ -48,7 +48,14 @@
         </ul>
        <div class="px-4"> 
         <ul class="navbar-nav px-4">
-          <li><i class="nav-item font-weight-bold  fa-solid fa-search p-4 pe-2 text-dark"></i></li>
+          <li class="dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="font-weight-bold fa-solid fa-search p-3 pe-2 text-dark"></i></a> 
+            <ul>
+              <li class="dropdown-menu "><div  style="width: 100%; height:100%; position: absolute; top: 50px; right: 60px"><form class="d-flex ms-auto " role="search">
+                <input class="form-control me-3 " type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form> </div></li>
+            </li>
+          </ul>
           <li class="nav-item text-uppercase font-weight-bold">
             <a class="nav-link btn" href="#">Login</a>
           </li>
