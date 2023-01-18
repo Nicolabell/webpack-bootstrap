@@ -50,10 +50,10 @@
        <div class="px-4"> 
         <ul class="navbar-nav px-4">
 
-          <li class="m-auto">
+          <li class="m-auto ">
               <div class="accordion-item" >
-                  <button type="button"  class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseItemOne"><i class="font-weight-bold fa-solid fa-search p-3 pe-2 text-dark"></i></button>                                 
-                  <div id="collapseItemOne" class="accordion-collapse collapse" data-bs-parent="#JAZAccordion">
+                  <button type="button" role="button" class="accordion-button collapsed d-sm-show" data-bs-toggle="collapse" data-bs-target="#collapseItemOne"><i class="font-weight-bold fa-solid fa-search p-3 pe-2 text-dark "></i></button>                                 
+                  <div id="collapseItemOne" class="accordion-collapse collapse " >
                     <form class="d-flex" role="search">
                      <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
                      <button class="btn btn-outline-success" type="submit">Search</button>
@@ -300,15 +300,12 @@
     </div>
 
      <!-- sign up form-->
-      <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-        <div class="row align-items-center g-lg-5 py-5">
-          <div class="col-lg-7 text-center text-lg-start">
-            <h1 class="display-4 fw-bold lh-1 mb-3">Vertically centered hero sign-up form</h1>
-            <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
-          </div>
-          <div class="col-md-10 mx-auto col-lg-5">
-            <form class="p-4 p-md-5 border rounded-3 bg-light">
-              <div class="form-floating mb-3">
+      <div class="container col-9 px-4 py-5">
+        <div class="row align-items-center g-5 g-xxl-5 py-5">
+          <div class="col-lg-6 text-center text-lg-start p-5">
+            <form class="p-4 p-md-5 p-lg-7 border rounded-3 bg-light "><h1 class="py-2">Sign up to our newsletter</h1>
+              <div class="form-floating mb-5 m-7 g-5">
+                
                 <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                 <label for="floatingInput">Email address</label>
               </div>
@@ -326,6 +323,16 @@
               <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
             </form>
           </div>
+          <div class="col-md-10 mx-auto col-lg-6 pt-9">
+            <h1 class="display-4 fw-bold lh-1 mb-3">Looking for more?</h1>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start ">
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2 my-4 "> Find a book,video, podcast<i class="fa-solid fa-arrow-right ms-3"></i></button>
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2 my-3 "> Find a permaculture person<i class="fa-solid fa-arrow-right ms-3"></i></button>
+            </div>   
+                    
+           </div>
         </div>
       </div>
       
@@ -359,11 +366,11 @@
             <div class="col-2">
               <h5>Section</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light ">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
               </ul>
             </div>
       
