@@ -1,1 +1,11 @@
 // PAB even and course cards
+
+//hover and focus
+.card:hover,
+.card:focus {
+  box-shadow: 10px 10px 10px 6px;
+  transition-duration: 0.5s;
+  offset: 5px;
+  cursor: pointer;
+  transform: scale(1.05);
+}
