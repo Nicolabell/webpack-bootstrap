@@ -2,10 +2,11 @@
 
 //hover and focus
 .card:hover,
-.card:focus {
+.card:focus,
+.card:focus-within {
   box-shadow: 10px 10px 10px 6px;
   transition-duration: 0.5s;
   offset: 5px;
   cursor: pointer;
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
