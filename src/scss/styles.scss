@@ -46,22 +46,11 @@ body {
   font-family: $heading;
   font-size: large;
   color: $dark;
-  border-radius: 5px;
+  border-radius: 6px;
   &:hover,
   &:active,
   &:focus {
     color: $light01;
-  }
-}
-
-.btn-primary,
-.join {
-  background-color: $dark01;
-  color: $light01;
-  border-color: $light01;
-  &:hover {
-    background: $light01;
-    color: $dark01;
   }
 }
 
@@ -84,3 +73,18 @@ footer {
     color: $light01;
   }
 }
+
+.btn-primary,
+.join {
+  background-color: $dark01;
+  color: $light01;
+  border-color: $light01;
+  &:hover {
+    background: $light01;
+    color: $dark01;
+    border-color: $dark01;
+    border-radius: 6px;
+  }
+}
+
+
