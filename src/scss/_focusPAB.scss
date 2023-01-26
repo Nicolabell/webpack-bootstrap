@@ -28,7 +28,9 @@ a.dropdown-item:active {
 }
 
 .fa-search:hover,
-.fa-search:focus {
+.fa-search:focus,
+.fa-search:active,
+.search-icon:focus {
   transition-duration: 0.5s;
   transform: scale(2.02);
 }

@@ -22,3 +22,8 @@ With an aim to keep hover and focus states and transitions across components con
 Adding icon left of drop down menu item - Include within text and use me-3 to pad icon on the right before menu text.
 
 Colours - still working on creating custom mapping of brand colours but it was buggy - amending $dark01 in  'defaultsPAB' works fine however. (Still deciding on colour pallette as of 26th Jan)
+
+
+# Accessibility feedback to get #
+
+When tabbing over cards, would it be visually less confusing if the Read more buttons are dark green on focus rather than initially? 

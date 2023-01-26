@@ -20,6 +20,8 @@ h3,
   color: $dark01;
 }
 
+// NAV
+
 .dropdown-menu,
 .dropdown-item {
   font-family: $normal;
@@ -33,13 +35,8 @@ h3,
   padding: 8px;
 }
 
-p {
-  font-family: $normal;
-  color: $gray-900;
-}
-
-body {
-  background-color: $light01;
+.navbar-toggler-icon {
+  background-color: aqua;
 }
 
 .nav-link {
@@ -55,6 +52,16 @@ body {
 }
 
 .navbar {
+  background-color: $light01;
+}
+// MAIN CONTENT
+
+p {
+  font-family: $normal;
+  color: $gray-900;
+}
+
+body {
   background-color: $light01;
 }
 
