@@ -20,9 +20,17 @@ h3,
   color: $dark01;
 }
 
+.dropdown-menu,
+.dropdown-item {
+  font-family: $normal;
+  font-weight: 900;
+  color: $dark01;
+  background-color: $light01;
+  border-radius: 5px;
+}
+
 .nav-item {
   padding: 8px;
-  color: red;
 }
 
 p {
@@ -46,7 +54,8 @@ body {
   }
 }
 
-.btn-primary {
+.btn-primary,
+.join {
   background-color: $dark01;
   color: $light01;
   border-color: $light01;
@@ -57,11 +66,6 @@ body {
 }
 
 .navbar {
-  background-color: $light01;
-}
-
-.dropdown-menu {
-  color: $dark01;
   background-color: $light01;
 }
 
