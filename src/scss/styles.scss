@@ -82,9 +82,8 @@ footer {
   &:hover {
     background: $light01;
     color: $dark01;
-    border-color: $dark01;
-    border-radius: 6px;
+    outline: $dark01;
+    outline-radius: 6px;
+    outline: 1px solid;
   }
 }
-
-
