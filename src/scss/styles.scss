@@ -3,6 +3,7 @@
 @import "defaultsPAB";
 @import "images";
 @import "cardsPAB";
+@import "focusPAB";
 
 // Import all of Bootstrap's CSS
 
@@ -14,19 +15,14 @@
 h1,
 h2,
 h3,
-.nav-link {
+.navbar {
   font-family: $heading;
   color: $dark01;
 }
 
-.nav-link {
-  font-size: large;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .nav-item {
   padding: 8px;
+  color: red;
 }
 
 p {
@@ -36,6 +32,18 @@ p {
 
 body {
   background-color: $light01;
+}
+
+.nav-link {
+  font-family: $heading;
+  font-size: large;
+  color: $dark;
+  border-radius: 5px;
+  &:hover,
+  &:active,
+  &:focus {
+    color: $light01;
+  }
 }
 
 .btn-primary {

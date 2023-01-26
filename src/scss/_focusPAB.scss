@@ -1,0 +1,26 @@
+//HOVER AND FOCUS STATES
+
+//CARD hover and focus
+.card:hover,
+.card:focus,
+.card:focus-within {
+  box-shadow: 10px 10px 10px 6px;
+  offset: 5px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  transform: scale(1.02);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active,
+.dropdown-item:hover {
+  background-color: $dark;
+  border-radius: 5px;
+}
+
+.fa-search:hover,
+.fa-search:focus {
+  transition-duration: 0.5s;
+  transform: scale(2.02);
+}
