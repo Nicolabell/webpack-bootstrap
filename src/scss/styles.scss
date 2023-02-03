@@ -40,7 +40,12 @@ h3,
 }
 
 .navbar-toggler-icon {
-  background-color: aqua;
+  background-image: none;
+}
+.navbar-toggler-icon::before {
+  font-family: FontAwesome;
+  font-size: 2rem;
+  content: "\f0c9"; /* fa-bars, fa-navicon */
 }
 
 .nav-link {
