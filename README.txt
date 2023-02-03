@@ -14,6 +14,14 @@ Build for production:
 npm run build
 Currently set to deploy automatically via Github repo.
 
+# TO DO #
+
+Make menu mobile first - padding on items
+Sort out evet cards on tablet
+hover styles for footer links
+link up social media icons
+Slightly earlier break point for menu  toggle
+Get rid of down arrows
 
 # Theming notes: #
 
