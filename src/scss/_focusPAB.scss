@@ -33,3 +33,13 @@ a.dropdown-item:active {
   transition-duration: 0.5s;
   transform: scale(2.02);
 }
+
+li.nav-item:hover,
+li.nav-item:focus,
+li.nav-item:active {
+  color: red;
+}
+
+li.nav-link:hover {
+  color: aqua;
+}
