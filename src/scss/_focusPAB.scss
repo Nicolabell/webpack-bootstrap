@@ -34,12 +34,26 @@ a.dropdown-item:active {
   transform: scale(2.02);
 }
 
-li.nav-item:hover,
-li.nav-item:focus,
-li.nav-item:active {
-  color: red;
+.nav-item-footer {
+  @extend .nav-item;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $dark;
+    background-color: $light;
+    border-radius: 10px;
+  }
 }
 
-li.nav-link:hover {
-  color: aqua;
+footer {
+  .socials:hover {
+    a:hover {
+      color: $dark;
+      background-color: $light;
+      border-radius: 10px;
+      padding: 8px 8px;
+      transition-duration: 0.3s;
+      transform: scale(1.01);
+    }
+  }
 }
