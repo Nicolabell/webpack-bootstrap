@@ -34,14 +34,16 @@ a.dropdown-item:active {
   transform: scale(2.02);
 }
 
-.nav-item-footer {
-  @extend .nav-item;
+.nav-link-footer {
+  @extend .nav-link;
   &:hover,
   &:focus,
   &:active {
-    color: $dark;
     background-color: $light;
     border-radius: 10px;
+    a {
+      color: $dark;
+    }
   }
 }
 
