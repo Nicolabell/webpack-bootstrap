@@ -59,6 +59,11 @@ h4,
   &:focus {
     color: $light01;
   }
+  &--login {
+    @extend .nav-link;
+    font-family: $normal;
+    font-weight: 900;
+  }
 }
 
 .navbar {
@@ -97,6 +102,8 @@ footer {
   background-color: $dark01;
   color: $light01;
   border-color: $light01;
+  font-family: $normal;
+  font-weight: 800;
   &:hover {
     background: $light01;
     color: $dark01;
